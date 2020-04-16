@@ -2,6 +2,19 @@
 
 #### ⚠️  Pushed to `master`
 
+- added npm adduser with npm token ([@Denis-Evseev](https://github.com/Denis-Evseev))
+- added auto build ([@Denis-Evseev](https://github.com/Denis-Evseev))
+
+#### Authors: 1
+
+- Denis Evseev ([@Denis-Evseev](https://github.com/Denis-Evseev))
+
+---
+
+# v0.1.2 (Thu Apr 16 2020)
+
+#### ⚠️  Pushed to `master`
+
 - added auto build ([@Denis-Evseev](https://github.com/Denis-Evseev))
 
 #### Authors: 1
