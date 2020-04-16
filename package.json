@@ -1,7 +1,7 @@
 {
-  "name": "learnstorybook-design-system",
+  "name": "devseev-learnstorybook-design-system",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "polished": "^3.4.1",
     "prop-types": "^15.7.2",
@@ -11,7 +11,8 @@
     "styled-components": "^4.3.2"
   },
   "scripts": {
-    "build": "BABEL_ENV=production babel src -d dist",
+    "build": "cross-env BABEL_ENV=production babel src -d dist",
+    "prepare": "npm run build",
     "test": "react-scripts test",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
@@ -47,7 +48,13 @@
     "@storybook/addon-storysource": "^5.2.1",
     "@storybook/addons": "^5.2.1",
     "@storybook/react": "^5.2.1",
+    "auto": "^9.27.2",
     "cross-env": "^7.0.2",
     "storybook-chromatic": "^2.2.2"
-  }
+  },
+  "description": "Learn Storybook design system",
+  "main": "dist/index.js",
+  "repository": "https://github.com/Denis-Evseev/learnstorybook-design-system.git",
+  "author": "Denis-Evseev <evseevdi@gmail.com>",
+  "license": "MIT"
 }
