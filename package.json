@@ -1,6 +1,6 @@
 {
   "name": "devseev-learnstorybook-design-system",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "dependencies": {
     "polished": "^3.4.1",
@@ -17,7 +17,7 @@
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
     "build-storybook-docs": "build-storybook -s public --docs",
-	"release": "auto shipit"
+    "release": "auto shipit"
   },
   "babel": {
     "presets": [
